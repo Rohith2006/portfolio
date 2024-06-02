@@ -1,0 +1,41 @@
+.contact {
+    background-color:white;
+    border: none;
+    padding: 30px 0px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    width:60vw;
+}
+.contact h3{
+    font-size: 1.5rem;
+    /* font-weight: bold; */
+    color:black;
+}
+.contact-links a{
+    text-decoration: none;
+    margin:10px;
+}
+.facebook{
+    color: #3b5998;
+}
+.twitter{
+    color: #00acee;
+}
+.linkedin{
+    color: #0e76a8;
+}
+.youtube{
+    color: #c4302b;
+}
+.reddit{
+    color: #ff4500;
+}
+.instagram{
+    color: #bc2a8d;
+}
+.github{
+    color: #333;
+}

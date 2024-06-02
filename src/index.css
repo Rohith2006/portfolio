@@ -5,9 +5,100 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #EEEEEE;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.image{
+  background-image: url(https://ptprashanttripathi.github.io/img/img-bg-1.jpg);
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+  height: 480px;
+  width: 100%;
+  left: 0;
+  top: 0;
+  z-index: -1;
+}
+.header-container{
+  width:100vw;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+}
+.about-container{
+  width:100vw;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  margin-top:160px;
+}
+.interest-container .row{
+  width:60vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.interest{
+  width:100vw;
+  justify-content: center;
+  display: flex;
+  margin-top : 60px;
+}
+.interest-2-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+}
+
+.interest-2-container {
+  display: flex;
+  justify-content: center;
+  width: 60vw;
+}
+.interest-2-heading{
+  margin-top : 150px;
+  width:60vw;
+}
+.projects-main{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+}
+.projects-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 60vw;
+}
+.projects-heading{
+  margin-top : 60px;
+  width:60vw;
+}
+.contact-main{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+}
+.thanks{
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 60px;
+}
+.thanks p{
+  color:rgb(104, 104, 104);
 }
